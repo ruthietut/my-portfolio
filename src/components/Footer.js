@@ -32,12 +32,14 @@ const Footer = () => {
             </h4>
           </div>
           <div className="email">
-            <h4>
+            <h4> <a href="https://ruthifeobasi1@gmail.com">
               <FaMailBulk
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
+              
               ruthifeobasi1@gmail.com
+              </a>
             </h4>
           </div>
         </div>
@@ -48,18 +50,23 @@ const Footer = () => {
             problems
           </p>
           <div className="social">
-            <FaFacebook
+            <a href="https://www.linkedin.com/in/ruth-obasi">
+            <FaFacebook 
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            /></a>
+            <a href="https://twitter.com/RuthieObasi">
             <FaTwitter
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
             />
+            </a>
+            <a href="https://www.linkedin.com/in/ruth-obasi">
             <FaLinkedin
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
             />
+            </a>
           </div>
         </div>
       </div>
