@@ -1,6 +1,6 @@
 # Getting started with my Portfolio website
 
-This is how i built my POrtfolio using react js.
+This is how i built my Portfolio using react js.
 
 ## Getting started
 
