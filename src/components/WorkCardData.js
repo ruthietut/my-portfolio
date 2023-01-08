@@ -20,7 +20,7 @@ const WorkCardData = [
     imgsrc: project3,
     title: "My portfolio",
     text: "This is my portfolio website. I built it using react, styled with css and hosted on netlify. it has a home page, a project page and about me page and a contact page. each page is dynamic and functional with dynamic cards created using props.",
-    view: "replit.com/ruthie",
+    view: "https://ruthobasi.netlify.app/",
     Source:"https://thealtschool.com"
   },
 ];
