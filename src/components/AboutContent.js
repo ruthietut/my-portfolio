@@ -20,7 +20,7 @@ const AboutContent = () => {
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img src={aboutImg}  className="img" alt="about" />
+            <img src={aboutImg} className="img" alt="about" />
           </div>
           <div className="img-stack bottom">
             <img src={aboutImg2} className="img" alt="about" />
