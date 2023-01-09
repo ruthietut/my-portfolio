@@ -1,12 +1,19 @@
 import "./AboutContentStyles.css";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import aboutImg from "../assets/aboutImg.jpg";
 import aboutImg2 from "../assets/aboutImg2.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const AboutContent = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <div className="about">
+    <div className="about" data-aos="zoom-in">
       <div className="left">
         <h1>Who i am</h1>
         <p>

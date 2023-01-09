@@ -1,10 +1,14 @@
 import "./FormStyles.css";
 
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Form = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="form">
+    <div className="form" data-aos="zoom-in">
       <form>
         <label>Your Name</label>
         <input type="text"></input>

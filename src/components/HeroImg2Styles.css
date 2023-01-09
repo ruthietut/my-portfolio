@@ -1,12 +1,12 @@
 .hero-img {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 60vh;
+  height: 80vh;
   position: relative;
 }
 .hero-img::before {
   content: "";
-  background: url(https://media.istockphoto.com/id/1356364268/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-keyboard-screens-show-coding.jpg?s=612x612&w=0&k=20&c=4R_9mWq9KzgpC_pVBMMM0FNzw1L-NyFLa7tDqFInMGs=);
+  background: url(https://images.pexels.com/photos/5926398/pexels-photo-5926398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center top;
   height: 100%;
@@ -25,11 +25,15 @@
   align-items: center;
 }
 .hero-img h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
+  padding: 0.6rem 0 1.5rem;
 }
 .hero-img p {
   font-size: 1.4rem;
   text-align: center;
+
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 640px) {

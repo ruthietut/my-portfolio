@@ -6,7 +6,6 @@
   justify-content: center;
   flex-wrap: wrap;
   height: 100%;
-  
 }
 .about .left {
   text-align: center;
@@ -43,5 +42,3 @@
 
   z-index: 5;
 }
-
-
