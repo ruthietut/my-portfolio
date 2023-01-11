@@ -18,7 +18,7 @@ const AboutContent = () => {
         <h1>Who i am</h1>
         <p>
           I am a software engineer. I create responsive, secure website, using
-          javascript and raect.js.
+          javascript and react.js.
         </p>
         <Link to="/contact">
           <button className="btn">Contact</button>

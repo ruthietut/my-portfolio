@@ -1,6 +1,7 @@
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
 const WorkCardData = [
   {
     imgsrc: project1,
@@ -23,6 +24,11 @@ const WorkCardData = [
     view: "https://ruthobasi.netlify.app/",
     Source: "https://thealtschool.com",
   },
+  {
+    imgsrc: project4,
+    title: "Altschool semester exam",
+    text: "Setup react-router, implement Nested routes, 404 page, and Error boundary. Set up fake userAuthContext using the context API to always carry out a fake authentication, bonus - extract out a custom hook to get the currently logged-in user. Implement SEO and Navigation menu that will show on each page.",
+  }
 ];
 
 export default WorkCardData;
