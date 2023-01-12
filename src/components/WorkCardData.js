@@ -14,8 +14,8 @@ const WorkCardData = [
     imgsrc: project2,
     title: "network provider identification",
     text: "This application performs a check on the network provider of a phone number, returns the network provider name and display the network provider logo. A holiday challenge project in Altschool Africa.",
-    view: "https://holiday-hackathon.ruthietut.repl.co",
-    source: "https://github.com/ruthietut/TopGs",
+    view: "https://TopGs.repl.co",
+    source: "https://replit.com/@TopGs/TopGs#index.html",
   },
   {
     imgsrc: project3,
